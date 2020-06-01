@@ -11,8 +11,8 @@
 На валидационных графиках синий также уступает по выбросам и стабильности, красный и оранжевый приблизительно равны
 Из этого делаем вывод - лучший темп обучения тут 0.0001-0.0005
 
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/train1.jpg)
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/validtaion1.jpg)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/train1.png)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/validtaion1.png)
 
 ## БЛОК 2 : Поворот на случайный угол
 
@@ -24,8 +24,8 @@
 количестве эпох выравнялся бы с остальными. На графике потерь себя лучше показывает синий, хоть и оранжевый ведёт себя немного стабильнее. Красный, опять же, уступает.
 На валидационных графиках синий показывает себя заметно лучше остальных, из чего делаем вывод, что лучшие показатели lr = 0.0008 и Поворот на 60
 
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/train2.jpg)
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/validation2.jpg)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/train2.png)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/validation2.png)
 ## БЛОК 3 : Изменение яркости и контраста
 
 ### Оранжевый lr = 0.0001 яркость с max_delta=0,09 и контрастность с коэффициентом 0.5-1.4
@@ -37,8 +37,8 @@
 На валидационных графиках синий также уступает по выбросам и стабильности, красный и оранжевый приблизительно равны.
 Вывод: лучшими оказалась модель с параметрами яркости 0.09 и контрастности с коэф. 0.5-1.4
 
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/train3.jpg)
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/validation3.jpg)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/train3.png)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/validation3.png)
 ## БЛОК 4 : Использование случайного участка изображения
 
 
@@ -52,8 +52,8 @@
 На валидационных графиках по стабильности и выбросам лучшим оказывается красный.
 Вывод: красный график показывает, что модель с параметрами lr = 0.0009 и вырезом 100x100 - даёт самые оптимальные результаты
 
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/train4.jpg)
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/validation4.jpg)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/train4.png)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/validation4.png)
 ## БЛОК 5 : Совместное применение техник аугментации данных с оптимальными параметрами
 
 Угол поворота 90
@@ -64,5 +64,5 @@
 
 Вырез 150х150
 
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/train5.jpg)
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/validation5.jpg)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/train5.png)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/validation5.png)
