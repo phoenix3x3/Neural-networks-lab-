@@ -62,7 +62,7 @@
 
 Контрастность 0.4-1.3
 
-Вырез 100х100
+Вырез 150х150
 
 ![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/train5.jpg)
 ![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab4/validation5.jpg)
