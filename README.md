@@ -2,19 +2,19 @@
 Здесь графики обученной модели сети VGG16.
 
 1 конфигурация. lr= 0.000001, batch_size = 16.
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/1.1.png)
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/1.2.png)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/1.1.jpg)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/1.2.jpg)
 
 
 
 2 конфигурация. lr= 0.00001, batch_size = 16.
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/2.1.png)
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/2.2.png)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/2.1.jpg)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/2.2.jpg)
 
 
 3 конфигурация. lr = 0.00001, batch_size = 32.
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/3.1.png)
-![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/3.2.png)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/3.1.jpg)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/Lab3/3.2.jpg)
 
 
 В файле train_freeze.py использована предобученная на image.net сеть VGG16. В данной сети были заморожены свёрточные слои и производилось обучение классификатора с последующим сохранением весовых коэффициентов. Графики для замороженной сети:
