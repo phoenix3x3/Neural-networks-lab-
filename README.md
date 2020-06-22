@@ -6,16 +6,25 @@ Batch_size = 50.
 epoch = 50.
 
 1 Этап - Исходный файл; 
-2 Этап- Добавил сверточный слой №3 (kernel_size = 3);
-3 Этап- Изменил сверточный слой №3 (kernel_size = 2); 
-4 Этап- Добавил еще один сверточный слой и поменял значения kernel_size для 1ого, 2ого, 3его, 4ого сверточных слоев соответственно 1, 2, 2, 4; 
 
-Данные на графиках ниже приведены для 1( оранжевым цветом) и 2( синим цветом) этапов.
+        tf.keras.layers.Input(shape=(224,224,3)),
+        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+        tf.keras.layers.MaxPool2D(),
+        tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+        tf.keras.layers.MaxPool2D(),
+        tf.keras.layers.Conv2D(filters=32, kernel_size=3),
+        tf.keras.layers.MaxPool2D(),
+        tf.keras.layers.Flatten(),
+        tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+        
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab2/images/0.1.jpg)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab2/images/0.2.jpg)
 
-![1st](https://i.ibb.co/56VNP1m/1.jpg)
-![2nd](https://i.ibb.co/RvYL13y/2.jpg)
+2 Этап - Меняем параметры
+  2.1 Оранжевый - Добавили ещё один полносвязный слой с filters=32  и kernel_size=3
+  2.2 Синий - Добавили ещё один полносвязный слой с filters=64  и kernel_size=3
+  2.3 Красный - Меняем параметр из 2.2 filters с 64 на 16
+  2.4 Голубой - Убираем с конца слои, оставляя 2 полносвязных слоя с filters = 8 и 16
 
-Данные на графиках ниже приведены для 3(красным цветом) и 4( голубым цветом) этапов.
-
-![3rd](https://i.ibb.co/d5VmCJr/3.jpg)
-![4th](https://i.ibb.co/vDBJ3mC/4.jpg)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab2/images/1.1.jpg)
+![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/lab2/images/1.2.jpg)
