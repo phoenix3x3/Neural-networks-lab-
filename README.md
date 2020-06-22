@@ -11,3 +11,4 @@
 ## Графики потерь
 ![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/1lab/loss.png)
 ![Image alt](https://github.com/phoenix3x3/Neural-networks-lab-/raw/1lab/val_loss.png)
+Итоговая точность на тестовых данных: 0.5020
